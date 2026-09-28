@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local data
+data/
+output/
+results/
+
+# Large scientific files
+*.arc
+*.rsf
+*.cif
+*.xyz
+*.traj
+*.h5
+*.hdf5
+
+# Local configuration
+.env
+config.local.*

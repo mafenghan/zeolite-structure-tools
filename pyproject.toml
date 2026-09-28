@@ -1,0 +1,16 @@
+[build-system]
+requires=["setuptools>=68","wheel"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="zeolite-structure-tools"
+version="0.1.0"
+description="Zeolite structure construction and adsorbate placement tools"
+requires-python=">=3.9"
+dependencies=["numpy>=1.23","pandas>=1.5","pandas"]
+
+[project.scripts]
+zeo-add-nh3="zeolite_structure_tools.cli.main:main"
+
+[tool.setuptools.packages.find]
+where=["src"]
